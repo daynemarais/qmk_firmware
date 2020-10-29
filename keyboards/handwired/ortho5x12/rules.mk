@@ -36,6 +36,8 @@ AUDIO_ENABLE = no           # Audio output on port C6
 # HD44780_ENABLE = no 		# Enable support for HD44780 based LCDs
 # ENCODER_ENABLE = no
 
+TAP_DANCE_ENABLE = yes
+
 # DIP_SWITCH_ENABLE = yes
 
 LAYOUTS = ortho_5x12

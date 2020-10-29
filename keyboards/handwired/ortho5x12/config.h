@@ -31,6 +31,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 6
 #define MATRIX_COLS 10
 
+#define TAPPING_TOGGLE 2
+#define TAPPING_TERM 125
+
 /* Keyboard Matrix Assignments */
 /*#define DIRECT_PINS { \
     { D1, D0, C6 }, \

@@ -1,1 +1,2 @@
 DYNAMIC_MACRO_ENABLE = yes
+# BLUETOOTH = AdafruitBLE

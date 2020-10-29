@@ -24,8 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER      0x0200
 #define MANUFACTURER    Winkeyless
 #define PRODUCT         B.mini
+#define DESCRIPTION     BT
 
-#define RGBLED_NUM 16
+// #define RGBLED_NUM 16
 
 /* matrix size */
 #define MATRIX_ROWS 8
@@ -34,7 +35,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COL_PINS { A0, A1, A2, A3, A4, A5, A6, A7, C7, C6, C5, C4, C3, C2, D7 }
 #define DIODE_DIRECTION COL2ROW
 
-#define RGBLIGHT_ANIMATIONS
+// #define RGBLIGHT_ANIMATIONS
 
 #define BACKLIGHT_PIN D4
 #define BACKLIGHT_LEVELS 3
+
+#define AdafruitBleResetPin D2
+#define AdafruitBleCSPin D3
+#define AdafruitBleIRQPin D6
+
+#define OUTPUT_AUTO_ENABLE
